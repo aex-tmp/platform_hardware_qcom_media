@@ -14,7 +14,7 @@ libmm-vidc-def += -D__alignx\(x\)=__attribute__\(\(__aligned__\(x\)\)\)
 libmm-vidc-def += -DT_ARM
 libmm-vidc-def += -Dinline=__inline
 libmm-vidc-def += -D_ANDROID_
-libmm-vidc-def += -Werror
+libmm-vidc-def += -Wno-error
 libmm-vidc-def += -D_ANDROID_ICS_
 ifeq ($(TARGET_KERNEL_VERSION), 4.9)
 libmm-vidc-def += -D_TARGET_KERNEL_VERSION_49_
